@@ -1,0 +1,119 @@
+ul {
+    margin    : 0;
+    padding   : 0;
+    list-style: none
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0
+  }
+  
+  img {
+    min-width: 100%;
+    min-height   : 100%;
+  }
+  html,
+  body {
+    height : 100%;
+    margin : 0;
+    padding: 0;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(228, 214, 255);
+    min-height: 200px;
+    transition: background-color .3s ease-in-out, transform .3s ease-in-out;
+  }
+  .card:hover{
+    background-color: rgba(228, 214, 255, 0.385);
+    transform: scale(1.1);
+  }
+  .card:focus{
+    background-color: rgba(228, 214, 255, 0.385);
+    transform: scale(1.1);
+  }
+  .card:active{
+    background-color: rgba(228, 214, 255, 0.385);
+  }
+  .card__lnk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    height: 200px;
+    width: 300px;
+    color: rgb(228, 214, 255);
+    transition: color .3s ease-in-out;
+    
+  }
+  .card__lnk:hover{
+    color: rgba(8, 7, 17, 0.825);
+  }
+  .card__lnk:focus{
+    color: rgba(8, 7, 17, 0.825);
+  }
+  .card__lnk:active{
+    color: rgba(8, 7, 17, 0.825);
+  }
+  .title{
+    color: rgb(228, 214, 255);
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 50px 0;
+  }
+  .card__descr{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .card__img{
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card__text{
+    max-width: 500px;
+  }
+  .card__headers{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .options{
+    display: flex;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+  }
+  .options__wrapper{
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+  }
+  .options__descr{
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+  }
+  #app {
+    min-height: 100%;
+    min-width : 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(24,3,3,1) 100%, rgba(252,176,69,1) 100%);
+  }
